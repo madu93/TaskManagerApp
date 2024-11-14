@@ -1,0 +1,83 @@
+/* Styling for the login container */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  /* Title styling */
+  .login-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form styling */
+  form {
+    width: 100%;
+    max-width: 400px; /* Adjust form width */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mat Form Field adjustments */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  /* Input field adjustments */
+  mat-input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+  }
+  
+  /* Button color for primary action */
+  button.mat-raised-button {
+    background-color: #3f51b5; /* Primary color */
+    color: white;
+    border: none;
+  }
+  
+  button.mat-raised-button:hover {
+    background-color: #2c387e; /* Darker shade on hover */
+  }
+  
+  /* Error message styling */
+  p {
+    margin-top: 10px;
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .login-container {
+      padding: 10px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  

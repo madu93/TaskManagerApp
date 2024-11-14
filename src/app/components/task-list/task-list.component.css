@@ -1,0 +1,23 @@
+/* src/app/components/task-list/task-list.component.css */
+
+.task-list-container {
+    padding: 16px;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-item h3.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-actions button {
+    margin-left: 8px;
+  }
+  
